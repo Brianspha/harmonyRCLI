@@ -1,0 +1,67 @@
+{
+  "name": "@brianspha/hrcli",
+  "author": "Siphamandla Mjoli",
+  "version": "0.1.0",
+  "description": "A CLI tool for interacting with Harmony Rosetta SDK",
+  "scripts": {
+    "build": "npm i -g nexe && nexe -i ./bin.js --name hcli"
+  },
+  "bin": "bin/hrcli",
+  "keywords": [
+    "cli",
+    "harmony",
+    "decentralised",
+    "roseeta",
+    "package"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "main": "cli/hrcli.js",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "argparse": "^2.0.1",
+    "axios": "^0.19.2",
+    "big.js": "^6.0.3",
+    "cache-manager": "^3.3.0",
+    "cache-manager-fs": "^1.0.8",
+    "chalk": "^4.1.0",
+    "chalk-pipe": "^5.0.0",
+    "child_process": "^1.0.2",
+    "cli-table": "^0.3.6",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "console-table-printer": "^2.8.2",
+    "core-js": "^3.6.4",
+    "create-file": "^1.0.1",
+    "esm": "^3.2.25",
+    "file-system-cache": "^1.0.5",
+    "inquirer": "^8.0.0",
+    "inquirer-fuzzy-path": "^2.3.0",
+    "js-object-pretty-print": "^0.3.0",
+    "node-cache": "^5.1.0",
+    "node-targz": "^0.2.0",
+    "ora": "^4.0.4",
+    "pack": "^2.2.0",
+    "platform-folders": "^0.5.1",
+    "read-package-json": "^2.1.1",
+    "readjson": "^2.0.1",
+    "vorpal": "^1.12.0",
+    "vorpal-less": "^0.0.13",
+    "vorpal-repl": "^1.1.8",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "cli/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianspha/hrcli.git"
+  }
+}
