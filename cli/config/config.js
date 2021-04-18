@@ -64,7 +64,7 @@ program
     // console.log(program.helpInformation());
     process.exit(1);
   })
-  .usage("hrcli command [options]");
+  .usage("command [options]");
 
 function mySuggestBestMatch(arg, commands) {
   var message = `Did you mean?\n\n`;

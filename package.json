@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "A CLI tool for interacting with Harmony Rosetta SDK",
   "scripts": {
-    "build": "npm i -g nexe && nexe -i ./bin.js --name hcli"
+    "build": "npm i -g nexe && nexe -i ./bin.js --name hrcli"
   },
-  "bin": "bin/hrcli",
+  "bin": "./hrcli",
   "keywords": [
     "cli",
     "harmony",
